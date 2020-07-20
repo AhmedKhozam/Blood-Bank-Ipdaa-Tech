@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/splash">
@@ -35,11 +36,13 @@
                 android:background="@drawable/shape_edit_text_bg"
                 android:hint="@string/phone"
                 android:inputType="phone"
+                android:textAlignment="textStart"
                 android:paddingEnd="@dimen/dim_m"
                 android:paddingStart="@dimen/dim_m"
                 android:maxLength="11"
                 android:textSize="@dimen/txt_size_m"
-                android:gravity="end|center" />
+                android:gravity="end|center"
+                tools:ignore="RtlCompat" />
 
             <EditText
                 android:id="@+id/login_fragment_et_password"
@@ -52,6 +55,7 @@
                 android:hint="@string/password"
                 android:paddingEnd="@dimen/dim_m"
                 android:paddingStart="@dimen/dim_m"
+                android:textAlignment="textStart"
                 android:textSize="@dimen/txt_size_m"
                 android:gravity="start|center"/>
 

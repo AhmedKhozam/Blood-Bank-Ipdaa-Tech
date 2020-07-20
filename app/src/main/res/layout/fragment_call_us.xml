@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/call_us_fragment_rl_sub_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -167,7 +168,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="@dimen/txt_size_m"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
 
             <EditText
                 android:id="@+id/call_us_fragment_et_message_address"
@@ -209,7 +211,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="@dimen/txt_size_m"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
 
         </RelativeLayout>
 

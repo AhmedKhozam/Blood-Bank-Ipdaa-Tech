@@ -42,11 +42,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/btn_greydark"
+        android:background="@color/colorPrimaryDark"
         android:text="@string/cross"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_margin="@dimen/dim_m"
         android:textSize="@dimen/txt_size_l" />
 
